@@ -1,5 +1,5 @@
 import { VStack, Text, HStack, Show } from "@chakra-ui/react";
-import { contactInfo } from "../../../public/data/contact";
+import { contactInfo } from "../../data/contact";
 
 const ContactDetails = () => {
   return (

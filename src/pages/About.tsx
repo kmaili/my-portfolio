@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { FaDownload } from "react-icons/fa6";
 import { useEffect, useState } from "react";
-import { aboutMe, technicalSkills } from "../../public/data/about";
+import { aboutMe, technicalSkills } from "../data/about";
 
 interface Props {
   setPage: (page: string) => void;

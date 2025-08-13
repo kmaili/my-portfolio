@@ -1,4 +1,4 @@
-import { receiver_email } from "../../public/data/contact";
+import { receiver_email } from "../data/contact";
 
 export const sendEmail = async (values: {
   name: string;

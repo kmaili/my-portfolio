@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { useEffect } from "react";
 import HomeItem from "../components/HomeItem";
-import { homeData } from "../../public/data/home";
+import { homeData } from "../data/home";
 
 interface Props {
   setPage: (page: string) => void;

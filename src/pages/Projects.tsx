@@ -1,7 +1,7 @@
 import { SimpleGrid, keyframes } from "@chakra-ui/react";
 import { useEffect } from "react";
 import Project from "../components/Projects/Project";
-import { projects } from "../../public/data/projects";
+import { projects } from "../data/projects";
 
 interface Props {
   setPage: (page: string) => void;
