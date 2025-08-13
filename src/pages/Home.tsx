@@ -81,7 +81,7 @@ const Home = ({ setPage }: Props) => {
             letterSpacing="wide"
             color={headingColor}
           >
-            KAREEM HAMOUDA
+            AYMEN KMAILI
           </Text>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
@@ -89,7 +89,7 @@ const Home = ({ setPage }: Props) => {
             color={accentColor}
             mb={{ base: 6, md: 10 }}
           >
-            Full Stack Developer | MERN
+            Full Stack Developer | ANGULAR & DJANGO
           </Text>
         </Box>
 
@@ -108,7 +108,7 @@ const Home = ({ setPage }: Props) => {
           filter="blur(15px)"
         />
         <Image
-          src={homeData.myImage}
+          src="https://media.licdn.com/dms/image/v2/D4D03AQHRmLa6WtIftA/profile-displayphoto-crop_800_800/B4DZiERZorGkAI-/0/1754565814624?e=1758153600&v=beta&t=hHwzQHFd7zgzhOreSooZVlyGrYPZv5r4aihaskglW9o"
           width={{ base: "250px", sm: "300px", md: "400px", lg: "425px" }}
           height="auto"
           borderRadius="50%"
