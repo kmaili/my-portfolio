@@ -1,5 +1,5 @@
 import scraperXpressPhoto from '../assets/scraperXpress-photo.png'
-import holoulPhoto from '../assets/holoul-photo.png'
+import holoulPhoto from '../assets/Holoul-photo.png'
 
 export const projects = [
   {
