@@ -1,6 +1,9 @@
+import scraperXpressPhoto from '../assets/scraperXpress-photo.png'
+import holoulPhoto from '../assets/holoul-photo.png'
+
 export const projects = [
   {
-    ImageURL: "../assets/scraperXpress-photo.png",
+    ImageURL: scraperXpressPhoto,
     Title: "ScrapXpress",
     Description:
       "Plateforme no-code pour workflows de scraping complexes avec backend scalable et frontend Angular intuitif avec visualisation temps réel.",
@@ -52,7 +55,7 @@ export const projects = [
     Demo: "#", // À remplacer par votre lien réel
   },
   {
-    ImageURL: "/assets/Holoul-photo.png",
+    ImageURL: holoulPhoto,
     Title: "Plateforme de Crowdsourcing",
     Description:
       "Plateforme modulaire avec soumission de problèmes, propositions de solutions, vote et intégration d'un LLM pour l'analyse intelligente des solutions.",
