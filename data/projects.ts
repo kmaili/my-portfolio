@@ -1,6 +1,6 @@
 export const projects = [
   {
-    ImageURL: "/assets/scraperXpress-photo.png",
+    ImageURL: "../assets/scraperXpress-photo.png",
     Title: "ScrapXpress",
     Description:
       "Plateforme no-code pour workflows de scraping complexes avec backend scalable et frontend Angular intuitif avec visualisation temps réel.",
