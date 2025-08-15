@@ -13,7 +13,7 @@ import Contact from "./pages/Contact";
 import Theme from "./pages/Theme";
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState("about.js");
+  const [selectedPage, setSelectedPage] = useState("home.js");
   return (
     <Grid
       templateAreas={{

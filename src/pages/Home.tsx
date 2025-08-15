@@ -10,6 +10,7 @@ import {
 import { useEffect } from "react";
 import HomeItem from "../components/HomeItem";
 import { homeData } from "../data/home";
+import React from "react";
 
 interface Props {
   setPage: (page: string) => void;
@@ -21,9 +22,12 @@ const fadeIn = keyframes`
 `;
 
 const Home = ({ setPage }: Props) => {
+  const [mounted, setMounted] = React.useState(false);
   useEffect(() => {
+    setMounted(true);
     setPage("home.js");
   }, []);
+  if (!mounted) return null;
 
   const accentColor = useColorModeValue("syntax.keyword", "#0BCEAF");
   const textColor = useColorModeValue("nightOwl.text", "whiteAlpha.900");
